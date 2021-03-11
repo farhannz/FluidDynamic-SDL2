@@ -1,6 +1,7 @@
 # FluidDynamic-SDL2
 Implementation of Mike Ash and Jos Stam Real-Time Fluid Dynamics using SDL2 and C++
 
+![alt text](https://github.com/farhannz/FluidDynamic-SDL2/raw/main/fluid.gif)
 
 # References   
 ## Fluid Simulation for Dummies - Mike Ash   
