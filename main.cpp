@@ -47,7 +47,7 @@ int main(int argc, char *argv[]){
         case SDL_MOUSEMOTION:
           SDL_GetMouseState(&mouseX,&mouseY);
           // If you want to add the fluid by clicking at your cursor position instead of following the cursor,
-          // Comment this 2 lines and uncomment lines 70 - 74 
+          // Comment these 3 lines and uncomment lines 70 - 74 
           amtX = amtY = rand()%11-5;
           fluid.addDensity(mouseX/Scale,mouseY/Scale, 100);
           fluid.addVelocity(mouseX/Scale,mouseY/Scale,amtX,amtY);
